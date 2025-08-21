@@ -10,6 +10,7 @@
     rel="stylesheet"/>
 </head>
 <body>
+    <!-- nav -->
     <nav>
         <div class="nav__header">
             <div class="nav__logo">
@@ -19,7 +20,7 @@
                 <i class="ri-menu-2-fill"></i>
             </div> 
         </div>
-        <ul class="nav__links open" id="nav-links">
+        <ul class="nav__links " id="nav-links">
             <li><a href="#home">صفحه اصلی</a></li>
             <li><a href="#about">درباره ما </a></li>
             <li><a href="#pakage">تورها</a></li>
@@ -29,7 +30,44 @@
             <button class="btn">ثبت نام</button>
         </div>
     </nav>
+
+    <!-- header -->
+    <header class="section__container header__container" id="home">
+        <div class="header__content">
+            <h1>ایران سرزمین هزاران تجربه ی ناب</h1>
+            <p class="section__des">
+                ایران سرزمینی است پر از تاریخ، فرهنگ و شگفتی های طبیعی که هر سفر به ان تجربه ای تازه و فراموش
+                نشدنی خواهد بود.
+                از کوه های سر به فلک کشیده زاگرش تا سواحل نیلگون خلیج فارس، زیبایی های بکر در انتظار شماست.
+                هر شهر و دیار ایران داستانی کهن در ئل خود پنهان کرده که تنها با سفر اشکار میشود.
+                اینجا جایی است که طبیعت، فرهنگ و مهمان نوازی ایرانی دست در دست هم می دهند.
+            </p>
+            <form action="">
+                <div class="input__group">
+                    <label for="location"> مقصد</label>
+                    <input type="text" placeholder="مثلا کیش">
+                </div>
+                <div class="input__group">
+                    <label for="date"> تاریخ</label>
+                    <input type="text" placeholder="فروردین 15"> 
+                </div>
+                <div class="input__group">
+                    <label for="price"> قیمت</label>
+                    <input type="text" placeholder="5,200,000 تومان ">
+                </div>
+                <button class="btn"><i class="ri-search-line"></i></button>
+            </form>
+        </div>
+        
+        <div class="header__image">
+            <img src="image/header-1.jpg" alt="image">
+            <img src="image/header-2.jpg" alt="image">
+            <img src="image/header-3.jpg" alt="image">
+            <img src="image/bg.png" alt="image">
+        </div>
+    </header>
     
+    <!-- about -->
 
 
 
