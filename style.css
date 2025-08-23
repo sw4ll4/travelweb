@@ -247,6 +247,42 @@ nav{
     rotate: 10deg;
 }
 
+/* =========================== ABOUT ================================ */
+
+.choose__container{
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.choose__image img{
+    max-width: 475px;
+    margin-inline: auto;
+    border-radius: 2rem;
+    box-shadow: 30px -30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.choose__list{
+    margin-top: 4rem;
+    display: grid;
+    gap: 3rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (width >768px){
