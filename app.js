@@ -10,3 +10,10 @@ menuBtn.addEventListener("click", (e)=>{
     menuBtnIcon.setAttribute("class", isOpen ? "ri-close-large-line" : "ri-menu-2-fill" );
 
 });
+
+
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+});

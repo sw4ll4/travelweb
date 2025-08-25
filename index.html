@@ -8,6 +8,7 @@
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <!-- nav -->
@@ -86,14 +87,14 @@
                     </div>
                 </li>
                 <li>
-                    <span><li class="ri-calendar-todo-line"></li></span>
+                    <span><i class="ri-calendar-todo-line"></i></span>
                     <div>
                         <h4> گزینه های انعطاف پذیر  رزرو </h4>
                         <p>با گزینه های رزور تنعطاف پذیر ما، سفر را مطابق با برنامه و سلیقه ی خود برنامه ریزی کنید </p>
                     </div>
                 </li>
                 <li>
-                    <span><li class="ri-road-map-line"></li></span>
+                    <span><i class="ri-road-map-line"></i></span>
                     <div>
                         <h4>  نقشه های مسیر سفارشی</h4>
                         <p>با نقشه های مسیر سفارشی ما، سفر های روان و لذت بخش رو تجربه کنید </p>
@@ -103,9 +104,124 @@
         </div>
     </section>
 
+    <!-- popular -->
+    <section class="section__container popular__container" id="pakage">
+        <img src="image/bg.png" alt="popular" class="popular__bg">
+        <p class="section__subheader">مقاصد محبوب</p>
+        <h2 class="section__header">مقاصد <span>پربازدید</span>ما</h2>
 
+        <!-- Slider main container -->
+        <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="popular__card">
+                        <img src="image/popular-1.jpg" alt="popular">
+                        <div class="popular__content">
+                            <div class="popular__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                (15) 4.0
+                            </div>
+                            <h4>یزد</h4>
+                            <p><span>5,200,000 تومان </span>برای هر نفر</p>
+                        </div>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class="ri-time-line"></i></span>4 روز
+                            </div>
+                            <div>
+                                <span><i class="ri-group-3-line"></i></span>20 نفر
+                            </div>
+                            <div>
+                                <span><i class="ri-map-pin-line"></i></span>ایران
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="swiper-slide">
+                    <div class="popular__card">
+                        <img src="image/popular-2.jpg" alt="popular">
+                        <div class="popular__content">
+                            <div class="popular__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                (15) 4.0
+                            </div>
+                            <h4>یزد</h4>
+                            <p><span>5,200,000 تومان </span>برای هر نفر</p>
+                        </div>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class="ri-time-line"></i></span>4 روز
+                            </div>
+                            <div>
+                                <span><i class="ri-group-3-line"></i></span>20 نفر
+                            </div>
+                            <div>
+                                <span><i class="ri-map-pin-line"></i></span>ایران
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="swiper-slide">
+                    <div class="popular__card">
+                        <img src="image/popular-3.jpg" alt="popular">
+                        <div class="popular__content">
+                            <div class="popular__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                (15) 4.0
+                            </div>
+                            <h4>یزد</h4>
+                            <p><span>5,200,000 تومان </span>برای هر نفر</p>
+                        </div>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class="ri-time-line"></i></span>4 روز
+                            </div>
+                            <div>
+                                <span><i class="ri-group-3-line"></i></span>20 نفر
+                            </div>
+                            <div>
+                                <span><i class="ri-map-pin-line"></i></span>ایران
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="popular__card">
+                        <img src="image/popular-4.jpg" alt="popular">
+                        <div class="popular__content">
+                            <div class="popular__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                (15) 4.0
+                            </div>
+                            <h4>یزد</h4>
+                            <p><span>5,200,000 تومان </span>برای هر نفر</p>
+                        </div>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class="ri-time-line"></i></span>4 روز
+                            </div>
+                            <div>
+                                <span><i class="ri-group-3-line"></i></span>20 نفر
+                            </div>
+                            <div>
+                                <span><i class="ri-map-pin-line"></i></span>ایران
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <!-- If we need pagination -->
+        
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
